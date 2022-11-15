@@ -3,3 +3,41 @@ body {
   height: 100%;
   margin: 0;
 }
+h1 {
+  text-align: center;
+}
+nav {
+  text-align: center;
+}
+nav a {
+  display:inline-block;
+  margin: 10px;
+  background-color: grey;
+}
+section#featured property {
+  display: block;
+  align-content: center;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 100%;
+}
+p#lorem{
+  width: 50%;
+  align-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+section#details{
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: red;
+  justify-content: space-around;
+}
